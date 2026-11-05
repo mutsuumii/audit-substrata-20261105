@@ -1,0 +1,20 @@
+{
+  "source_repo": "glaretechnologies/substrata",
+  "source_url": "https://github.com/glaretechnologies/substrata",
+  "audit_date": "2026-11-05T06:11:43.853469",
+  "ai_model": "gemini-2.0-flash",
+  "findings_count": 1,
+  "severity_breakdown": {
+    "HIGH": 1
+  },
+  "findings": [
+    {
+      "id": "C-UAF-001",
+      "name": "Potential use-after-free",
+      "severity": "HIGH",
+      "cwe": "CWE-416",
+      "file": "opus/opus-1.3.1/celt/celt_decoder.c",
+      "line": 222
+    }
+  ]
+}
